@@ -3,7 +3,7 @@
 #include "Arduino.h"
 class ledlight{
   protected:
-	int pin;
+	usint_8t pin;
   unsigned long timer = 0;
   public:
   ledlight();
