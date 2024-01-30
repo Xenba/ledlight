@@ -1,0 +1,14 @@
+#######################################
+# Syntax Coloring Map For easyFingerprint
+#######################################
+
+#######################################
+# ledlight   (KEYWORD1)//Variable name you want to create (for example: ledlight led(2) )
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+.begin 	KEYWORD2 // inicializes the pin (ex: led.begin)
+.ledstatus KEYWORD2////The time the LED flashes in the cycle is 1 second (500 millis in the wire is the time the light is on and off)(ex:led.ledstatus)
+
+
