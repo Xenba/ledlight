@@ -10,7 +10,7 @@ if (digitalRead(pin) == LOW) {
   if (millis() - timer >= timehigh) {
   timer = millis();
   digitalWrite(pin, HIGH);
-   Serial.println(digitalRead(pin));
+   //Serial.println(digitalRead(pin));
   }
 
 } 
@@ -18,7 +18,7 @@ else {
   if (millis() - timer >= timelow){
   timer = millis();
  digitalWrite(pin, LOW);
- Serial.println(digitalRead(pin));
+ //Serial.println(digitalRead(pin));
   }
 }
 
