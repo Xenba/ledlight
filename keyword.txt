@@ -9,6 +9,6 @@
 #######################################
 
 .begin 	KEYWORD2 // inicializes the pin (ex: led.begin)
-.ledstatus KEYWORD2////The time the LED flashes in the cycle is 1 second (500 millis in the wire is the time the light is on and off)(ex:led.ledstatus)
+.ledstatus KEYWORD2// (3000 millis above is the time the light turns on and 1000 millis is the time the light turns off)(for example: led.ledstatus(3000,1000);)
 
 
