@@ -3,12 +3,12 @@
 #include "Arduino.h"
 class ledlight{
   protected:
-	usint_8t pin;
+	uint8_t pin;
   unsigned long timer = 0;
   public:
   ledlight();
   ledlight(int p);
-  void ledstatus(int timer );
+  void ledstatus(unsigned int timehigh, unsigned int timelow );
   void begin();
 
 };
