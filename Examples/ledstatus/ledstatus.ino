@@ -2,7 +2,7 @@
 
 ledlight led(2);// constructor receives (pin)
 void setup() {
-  Serial.begin(115200);
+  //Serial.begin(115200);
   led.begin();// inicializes the pin
 }
 void loop() {
